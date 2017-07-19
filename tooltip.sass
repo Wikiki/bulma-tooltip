@@ -1,0 +1,65 @@
+.tooltip
+  position: relative
+  &::after
+    background: rgba(69, 77, 93, 0.9)
+    border-radius: $radius
+    bottom: 100%
+    color: #fff
+    content: attr(data-tooltip)
+    display: block
+    font-size: $size-7
+    left: 50%
+    max-width: 32rem
+    opacity: 0
+    overflow: hidden
+    padding: .4rem .8rem
+    pointer-events: none
+    position: absolute
+    text-overflow: ellipsis
+    -webkit-transform: translate(-50%, 1rem)
+    -ms-transform: translate(-50%, 1rem)
+    transform: translate(-50%, 1rem)
+    transition: all .2s ease
+    white-space: nowrap
+    z-index: 200
+  &:focus::after, &:hover::after
+    opacity: 1
+    -webkit-transform: translate(-50%, -0.5rem)
+    -ms-transform: translate(-50%, -0.5rem)
+    transform: translate(-50%, -0.5rem)
+  &[disabled], &.disabled
+    pointer-events: auto
+  &.tooltip-right
+    &::after
+      bottom: 50%
+      left: 100%
+      -webkit-transform: translate(-1rem, 50%)
+      -ms-transform: translate(-1rem, 50%)
+      transform: translate(-1rem, 50%)
+    &:focus::after, &:hover::after
+      -webkit-transform: translate(0.5rem, 50%)
+      -ms-transform: translate(0.5rem, 50%)
+      transform: translate(0.5rem, 50%)
+  &.tooltip-bottom
+    &::after
+      bottom: auto
+      top: 100%
+      -webkit-transform: translate(-50%, -1rem)
+      -ms-transform: translate(-50%, -1rem)
+      transform: translate(-50%, -1rem)
+    &:focus::after, &:hover::after
+      -webkit-transform: translate(-50%, 0.5rem)
+      -ms-transform: translate(-50%, 0.5rem)
+      transform: translate(-50%, 0.5rem)
+  &.tooltip-left
+    &::after
+      bottom: 50%
+      left: auto
+      right: 100%
+      -webkit-transform: translate(1rem, 50%)
+      -ms-transform: translate(1rem, 50%)
+      transform: translate(1rem, 50%)
+    &:focus::after, &:hover::after
+      -webkit-transform: translate(-0.5rem, 50%)
+      -ms-transform: translate(-0.5rem, 50%)
+      transform: translate(-0.5rem, 50%)
