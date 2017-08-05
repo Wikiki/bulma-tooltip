@@ -11,7 +11,7 @@ Preview
 Usage
 ---
 
-```
+```html
 <div class="columns text-center">
   <div class="column">
     <button class="button is-primary tooltip" data-tooltip="Tooltip Text">top tooltip</button>
