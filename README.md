@@ -33,7 +33,7 @@ Integration
 - Clone the [bulma repo](https://github.com/jgthms/bulma)
 - Under the `sass` folder, create a new folder called `extensions`
 - In this new folder, create a new file `tooltip.sass`
-- Copy the code form the `bulma-dage repo`'s [tooltip.sass](https://github.com/Wikiki/bulma-tooltip/blob/master/tooltip.sass) file into your new file
+- Copy the code form the `bulma-tooltip repo`'s [tooltip.sass](https://github.com/Wikiki/bulma-tooltip/blob/master/tooltip.sass) file into your new file
 - In the same folder create a new file `_all.sass` (this is not required, but will help when you add more extensions)
 - In this file add this code:
 ```
