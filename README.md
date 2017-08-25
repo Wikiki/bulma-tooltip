@@ -3,7 +3,7 @@ Bulma's extension to display tooltip on desktop layout
 
 You can easily decide on which side tooltip will be displayed: top, right, bottom or left.
 
-(find all my bulma's extensions [here](https://github.com/Wikiki/bulma-extensions))
+(find all my bulma's extensions [here](https://wikiki.github.io/bulma-extensions))
 
 Preview
 ---
