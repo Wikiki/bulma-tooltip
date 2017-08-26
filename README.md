@@ -1,6 +1,6 @@
 # bulma-tooltip
 Bulma's extension to display tooltip on desktop layout
-(find all my bulma's extensions [here](https://wikiki.github.io/bulma-extensions))
+(find all my bulma's extensions [here](https://wikiki.github.io/bulma-extensions/overview))
 
 Documentation & Demo
 ---
