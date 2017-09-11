@@ -1,4 +1,5 @@
 $tooltip-background-color: $grey-dark !default
+$tooltip-max-width: 24rem !default
 
 .tooltip
   position: relative
@@ -21,7 +22,7 @@ $tooltip-background-color: $grey-dark !default
       background: rgba($tooltip-background-color, 0.9)
       border-radius: $radius
       color: $white
-      max-width: 24rem
+      max-width: $tooltip-max-width
 
   &:focus::after,
   &:hover::after
@@ -64,7 +65,7 @@ $tooltip-background-color: $grey-dark !default
 
   &.is-tooltip-multiline
     &::after
-      min-width: 24rem
+      min-width: $tooltip-max-width
       text-overflow: clip
       white-space: normal
       word-break: break-word
