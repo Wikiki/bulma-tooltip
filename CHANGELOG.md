@@ -1,5 +1,10 @@
 # Bulma-Tooltip Changelog
 
+## 0.0.4
+
+* Add color modifiers
+* Add arrow before tooltip
+
 ## 0.0.3
 
 * Add background-color variable
