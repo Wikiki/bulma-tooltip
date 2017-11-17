@@ -8,4 +8,4 @@ Bulma's extension to display tooltip on desktop layout
 
 Documentation & Demo
 ---
-You can find the Documentation and a demo [here](https://wikiki.github.io/bulma-extensions/tooltip)
+You can find the Documentation and a demo [here](https://wikiki.github.io/elements/tooltip/)
