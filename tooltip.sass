@@ -3,7 +3,8 @@ $tooltip-max-width: 24rem !default
 
 .tooltip
   position: relative
-  &:hover
+  &:hover,
+  &.is-tooltip-active
     &::before,
     &::after
       z-index: 99999
@@ -29,7 +30,8 @@ $tooltip-max-width: 24rem !default
       max-width: $tooltip-max-width
 
   &:focus,
-  &:hover
+  &:hover,
+  &.is-tooltip-active
     &::before
       top: 0
       bottom: auto
@@ -53,7 +55,8 @@ $tooltip-max-width: 24rem !default
       right: auto
       transform: translate(-1rem, 50%)
     &:focus,
-    &:hover
+    &:hover,
+    &.is-tooltip-active
       &::before
         top: 50%
         left: 100%
@@ -70,7 +73,8 @@ $tooltip-max-width: 24rem !default
       right: auto
       transform: translate(-50%, -1rem)
     &:focus,
-    &:hover
+    &:hover,
+    &.is-tooltip-active
       &::before
         top: 100%
         bottom: auto
@@ -88,7 +92,8 @@ $tooltip-max-width: 24rem !default
       right: 100%
       transform: translate(1rem, 50%)
     &:focus,
-    &:hover
+    &:hover,
+    &.is-tooltip-active
       &::before
         top: 50%
         left: auto
