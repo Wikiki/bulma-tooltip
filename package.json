@@ -1,6 +1,6 @@
 {
   "name": "bulma-tooltip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Display a tooltip attached to any kind of element, in different position.",
   "main": "tooltip.sass",
   "scripts": {
