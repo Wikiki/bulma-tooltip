@@ -3,6 +3,7 @@
   "description": "Display a tooltip attached to any kind of element, in different position.",
   "version": "0.1.1",
   "main": "tooltip.sass",
+  "version": "0.1.3",
   "authors": [
     "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
   ],
