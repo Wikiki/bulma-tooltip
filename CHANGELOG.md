@@ -1,3 +1,18 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/Wikiki/bulma-tooltip/compare/0.1.1...0.1.4) (2018-02-09)
+
+
+### Bug Fixes
+
+* **bower:** Add missing version ([ef90484](https://github.com/Wikiki/bulma-tooltip/commit/ef90484))
+
+
+### Features
+
+* **gulp:** Add release task ([6baf98c](https://github.com/Wikiki/bulma-tooltip/commit/6baf98c))
+
+
+
 # Change Log
 
 ## [Unreleased](https://github.com/wikiki/bulma-tooltip/tree/HEAD)
