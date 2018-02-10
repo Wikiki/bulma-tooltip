@@ -1,3 +1,13 @@
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/Wikiki/bulma-tooltip/compare/0.1.5...0.1.6) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Use UMD modules style ([364d53c](https://github.com/Wikiki/bulma-tooltip/commit/364d53c))
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/Wikiki/bulma-tooltip/compare/0.1.4...0.1.5) (2018-02-10)
 
