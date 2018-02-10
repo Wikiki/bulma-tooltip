@@ -30,12 +30,12 @@ var paths = {
   bulma: 'node_modules/bulma/sass/utilities/',
   jsPattern: '**/*.js'
 }
-var globalSassFile = package.name + '.sass';
-var globalJsFile   = package.name + '.sass';
 var bulmaSassFile  = '_all.sass';
+var globalSassFile = package.name + '.sass';
+var globalJsFile   = package.name + '.js';
 var mainSassFile   = 'extension.sass';
-var distCssFile    = package.name + '.min.css';
 var mainJsFile     = 'extension.js';
+var distCssFile    = package.name + '.min.css';
 var distJsFile     = package.name + '.min.js';
 
 /**
