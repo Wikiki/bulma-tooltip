@@ -114,8 +114,11 @@ gulp.task('clean:scripts', function(callback) {
   callback();
 });
 
-// Deletes the entire _site directory.
-gulp.task('clean', ['clean:scripts', 'clean:styles']);
+// Deletes the entire dist directory.
+gulp.task('clean', ['clean:scripts', 'clean:styles'], function(callback) {
+  del(paths.dest);
+  callback();
+});
 
 /**
  * ----------------------------------------
