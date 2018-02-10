@@ -1,3 +1,16 @@
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/Wikiki/bulma-tooltip/compare/0.1.4...0.1.5) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Clean whole dist folder ([e403d11](https://github.com/Wikiki/bulma-tooltip/commit/e403d11))
+* **gulp:** Correct dist filenames ([ece4bd4](https://github.com/Wikiki/bulma-tooltip/commit/ece4bd4))
+* **package.json:** Main file path correction ([8b52ee1](https://github.com/Wikiki/bulma-tooltip/commit/8b52ee1))
+* **package.json:** Main file path correction ([d3feb49](https://github.com/Wikiki/bulma-tooltip/commit/d3feb49))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/Wikiki/bulma-tooltip/compare/0.1.1...0.1.4) (2018-02-09)
 
