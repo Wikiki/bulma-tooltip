@@ -2,7 +2,7 @@
   "name": "bulma-tooltip",
   "version": "0.1.4",
   "description": "Display a tooltip attached to any kind of element, in different position.",
-  "main": "tooltip.sass",
+  "main": "dist/bulma-tooltip.sass",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
