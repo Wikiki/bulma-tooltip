@@ -1,3 +1,36 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/Wikiki/bulma-tooltip/compare/0.1.7...1.0.0) (2018-02-10)
+
+
+
+<a name="0.1.7"></a>
+## [0.1.7](https://github.com/Wikiki/bulma-tooltip/compare/0.1.6...0.1.7) (2018-02-10)
+
+
+
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/Wikiki/bulma-tooltip/compare/0.1.5...0.1.6) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Use UMD modules style ([364d53c](https://github.com/Wikiki/bulma-tooltip/commit/364d53c))
+
+
+
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/Wikiki/bulma-tooltip/compare/0.1.4...0.1.5) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Clean whole dist folder ([e403d11](https://github.com/Wikiki/bulma-tooltip/commit/e403d11))
+* **gulp:** Correct dist filenames ([ece4bd4](https://github.com/Wikiki/bulma-tooltip/commit/ece4bd4))
+* **package.json:** Main file path correction ([8b52ee1](https://github.com/Wikiki/bulma-tooltip/commit/8b52ee1))
+* **package.json:** Main file path correction ([d3feb49](https://github.com/Wikiki/bulma-tooltip/commit/d3feb49))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/Wikiki/bulma-tooltip/compare/0.1.1...0.1.4) (2018-02-09)
 
