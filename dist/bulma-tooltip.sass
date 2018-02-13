@@ -5,16 +5,22 @@ $tooltip-max-width: 24rem !default
   position: relative
   &:hover,
   &.is-tooltip-active
-    &::after,
+    &:not(.is-loading)
+      &::after
+        z-index: 99999
+        position: absolute
+        display: inline-block
+        pointer-events: none
     &::before
       z-index: 99999
       position: absolute
       display: inline-block
       pointer-events: none
-    &::after
-      content: ""
-      border-style: solid
-      border-width: .5rem
+    &:not(.is-loading)
+      &::after
+        content: ""
+        border-style: solid
+        border-width: .5rem
     &::before
       opacity: 0
       content: attr(data-tooltip)
@@ -32,14 +38,15 @@ $tooltip-max-width: 24rem !default
   &:focus,
   &:hover,
   &.is-tooltip-active
-    &::after
-      top: 0
-      bottom: auto
-      left: 50%
-      opacity: 1
-      margin-left: -.5rem
-      margin-top: -.5rem
-      border-color: rgba($tooltip-background-color, 0.9) transparent transparent transparent
+    &:not(.is-loading)
+      &::after
+        top: 0
+        bottom: auto
+        left: 50%
+        opacity: 1
+        margin-left: -.5rem
+        margin-top: -.5rem
+        border-color: rgba($tooltip-background-color, 0.9) transparent transparent transparent
     &::before
       top: auto
       bottom: 100%
@@ -57,11 +64,12 @@ $tooltip-max-width: 24rem !default
     &:focus,
     &:hover,
     &.is-tooltip-active
-      &::after
-        top: 50%
-        left: 100%
-        right: auto
-        border-color: transparent rgba($tooltip-background-color, 0.9) transparent transparent
+      &:not(.is-loading)
+        &::after
+          top: 50%
+          left: 100%
+          right: auto
+          border-color: transparent rgba($tooltip-background-color, 0.9) transparent transparent
       &::before
         transform: translate(0.5rem, 50%)
 
@@ -75,12 +83,13 @@ $tooltip-max-width: 24rem !default
     &:focus,
     &:hover,
     &.is-tooltip-active
-      &::after
-        top: 100%
-        bottom: auto
-        left: 50%
-        right: auto
-        border-color: transparent transparent rgba($tooltip-background-color, 0.9) transparent
+      &:not(.is-loading)
+        &::after
+          top: 100%
+          bottom: auto
+          left: 50%
+          right: auto
+          border-color: transparent transparent rgba($tooltip-background-color, 0.9) transparent
       &::before
         transform: translate(-50%, 0.5rem)
 
@@ -94,11 +103,12 @@ $tooltip-max-width: 24rem !default
     &:focus,
     &:hover,
     &.is-tooltip-active
-      &::after
-        top: 50%
-        left: auto
-        right: calc(100% - .5rem)
-        border-color: transparent transparent transparent rgba($tooltip-background-color, 0.9)
+      &:not(.is-loading)
+        &::after
+          top: 50%
+          left: auto
+          right: calc(100% - .5rem)
+          border-color: transparent transparent transparent rgba($tooltip-background-color, 0.9)
       &::before
         transform: translate(-0.5rem, 50%)
 
@@ -113,17 +123,21 @@ $tooltip-max-width: 24rem !default
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-tooltip-#{$name}
-      &::after
-        border-color: rgba($color, 0.9) transparent transparent transparent
+      &:not(.is-loading)
+        &::after
+          border-color: rgba($color, 0.9) transparent transparent transparent
       &.is-tooltip-right
-        &::after
-          border-color: transparent rgba($color, 0.9) transparent transparent
+        &:not(.is-loading)
+          &::after
+            border-color: transparent rgba($color, 0.9) transparent transparent
       &.is-tooltip-bottom
-        &::after
-          border-color: transparent transparent rgba($color, 0.9) transparent
+        &:not(.is-loading)
+          &::after
+            border-color: transparent transparent rgba($color, 0.9) transparent
       &.is-tooltip-left
-        &::after
-          border-color: transparent transparent transparent rgba($color, 0.9)
+        &:not(.is-loading)
+          &::after
+            border-color: transparent transparent transparent rgba($color, 0.9)
       &::before
         background: rgba($color, 0.9)
         color: $color-invert
