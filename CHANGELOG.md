@@ -1,3 +1,13 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/Wikiki/bulma-tooltip/compare/1.0.2...1.0.3) (2018-02-13)
+
+
+### Bug Fixes
+
+* **loading:** Better code ([5fc73fb](https://github.com/Wikiki/bulma-tooltip/commit/5fc73fb))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/Wikiki/bulma-tooltip/compare/1.0.1...1.0.2) (2018-02-13)
 
