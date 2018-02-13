@@ -5,17 +5,17 @@ $tooltip-max-width: 24rem !default
   position: relative
   &:hover,
   &.is-tooltip-active
-    &::before,
-    &::after
+    &::after,
+    &::before
       z-index: 99999
       position: absolute
       display: inline-block
       pointer-events: none
-    &:before
+    &::after
       content: ""
       border-style: solid
       border-width: .5rem
-    &::after
+    &::before
       opacity: 0
       content: attr(data-tooltip)
       overflow: hidden
@@ -32,7 +32,7 @@ $tooltip-max-width: 24rem !default
   &:focus,
   &:hover,
   &.is-tooltip-active
-    &::before
+    &::after
       top: 0
       bottom: auto
       left: 50%
@@ -40,7 +40,7 @@ $tooltip-max-width: 24rem !default
       margin-left: -.5rem
       margin-top: -.5rem
       border-color: rgba($tooltip-background-color, 0.9) transparent transparent transparent
-    &::after
+    &::before
       top: auto
       bottom: 100%
       left: 50%
@@ -48,7 +48,7 @@ $tooltip-max-width: 24rem !default
       transform: translate(-50%, -0.5rem)
 
   &.is-tooltip-right
-    &::after
+    &::before
       top: auto
       bottom: 50%
       left: 100%
@@ -57,16 +57,16 @@ $tooltip-max-width: 24rem !default
     &:focus,
     &:hover,
     &.is-tooltip-active
-      &::before
+      &::after
         top: 50%
         left: 100%
         right: auto
         border-color: transparent rgba($tooltip-background-color, 0.9) transparent transparent
-      &::after
+      &::before
         transform: translate(0.5rem, 50%)
 
   &.is-tooltip-bottom
-    &::after
+    &::before
       top: 100%
       bottom: auto
       left: 50%
@@ -75,17 +75,17 @@ $tooltip-max-width: 24rem !default
     &:focus,
     &:hover,
     &.is-tooltip-active
-      &::before
+      &::after
         top: 100%
         bottom: auto
         left: 50%
         right: auto
         border-color: transparent transparent rgba($tooltip-background-color, 0.9) transparent
-      &::after
+      &::before
         transform: translate(-50%, 0.5rem)
 
   &.is-tooltip-left
-    &::after
+    &::before
       top: auto
       bottom: 50%
       left: auto
@@ -94,16 +94,16 @@ $tooltip-max-width: 24rem !default
     &:focus,
     &:hover,
     &.is-tooltip-active
-      &::before
+      &::after
         top: 50%
         left: auto
         right: calc(100% - .5rem)
         border-color: transparent transparent transparent rgba($tooltip-background-color, 0.9)
-      &::after
+      &::before
         transform: translate(-0.5rem, 50%)
 
   &.is-tooltip-multiline
-    &::after
+    &::before
       min-width: $tooltip-max-width
       text-overflow: clip
       white-space: normal
@@ -113,17 +113,17 @@ $tooltip-max-width: 24rem !default
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-tooltip-#{$name}
-      &::before
+      &::after
         border-color: rgba($color, 0.9) transparent transparent transparent
       &.is-tooltip-right
-        &::before
+        &::after
           border-color: transparent rgba($color, 0.9) transparent transparent
       &.is-tooltip-bottom
-        &::before
+        &::after
           border-color: transparent transparent rgba($color, 0.9) transparent
       &.is-tooltip-left
-        &::before
+        &::after
           border-color: transparent transparent transparent rgba($color, 0.9)
-      &::after
+      &::before
         background: rgba($color, 0.9)
         color: $color-invert
