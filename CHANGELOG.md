@@ -1,3 +1,8 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/Wikiki/bulma-tooltip/compare/1.0.3...1.0.4) (2018-03-29)
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/Wikiki/bulma-tooltip/compare/1.0.2...1.0.3) (2018-02-13)
 
