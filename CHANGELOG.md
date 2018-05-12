@@ -1,3 +1,13 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/Wikiki/bulma-tooltip/compare/1.0.4...1.0.5) (2018-05-12)
+
+
+### Bug Fixes
+
+* [#20](https://github.com/Wikiki/bulma-tooltip/issues/20) Multiline problem with few text ([eb00d1b](https://github.com/Wikiki/bulma-tooltip/commit/eb00d1b))
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/Wikiki/bulma-tooltip/compare/1.0.3...1.0.4) (2018-03-29)
 
