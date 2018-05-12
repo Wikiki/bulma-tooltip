@@ -114,10 +114,10 @@ $tooltip-max-width: 24rem !default
 
   &.is-tooltip-multiline
     &::before
-      min-width: $tooltip-max-width
+      //min-width: $tooltip-max-width
       text-overflow: clip
       white-space: normal
-      word-break: break-word
+      word-break: keep-all
 
   @each $name, $pair in $colors
     $color: nth($pair, 1)
