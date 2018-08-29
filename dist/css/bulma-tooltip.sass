@@ -1,6 +1,7 @@
 @import 'position'
 
 $tooltip-background-color: $grey-dark !default
+$tooltip-background-opacity: 0.9 !default
 $tooltip-max-width: 24rem !default
 
 .tooltip
@@ -31,7 +32,7 @@ $tooltip-max-width: 24rem !default
       text-overflow: ellipsis
       font-size: $size-7
       padding: .4rem .8rem
-      background: rgba($tooltip-background-color, 0.9)
+      background: rgba($tooltip-background-color, $tooltip-background-opacity)
       border-radius: $radius
       color: $white
       max-width: $tooltip-max-width
@@ -72,21 +73,21 @@ $tooltip-max-width: 24rem !default
     &.is-tooltip-#{$name}
       &:not(.is-loading)
         &::after
-          border-color: rgba($color, 0.9) transparent transparent transparent
+          border-color: rgba($color, $tooltip-background-opacity) transparent transparent transparent
       &.is-tooltip-right
         &:not(.is-loading)
           &::after
-            border-color: transparent rgba($color, 0.9) transparent transparent
+            border-color: transparent rgba($color, $tooltip-background-opacity) transparent transparent
       &.is-tooltip-bottom
         &:not(.is-loading)
           &::after
-            border-color: transparent transparent rgba($color, 0.9) transparent
+            border-color: transparent transparent rgba($color, $tooltip-background-opacity) transparent
       &.is-tooltip-left
         &:not(.is-loading)
           &::after
-            border-color: transparent transparent transparent rgba($color, 0.9)
+            border-color: transparent transparent transparent rgba($color, $tooltip-background-opacity)
       &::before
-        background: rgba($color, 0.9)
+        background: rgba($color, $tooltip-background-opacity)
         color: $color-invert
 
 @import 'dispatcher'
