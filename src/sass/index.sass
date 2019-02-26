@@ -1,5 +1,6 @@
 @import 'position'
 
+$tooltip-color: $white !default
 $tooltip-background-color: $grey-dark !default
 $tooltip-background-opacity: 0.9 !default
 $tooltip-max-width: 24rem !default
@@ -35,7 +36,7 @@ $tooltip-max-width: 24rem !default
       padding: .4rem .8rem
       background: rgba($tooltip-background-color, $tooltip-background-opacity)
       border-radius: $radius
-      color: $white
+      color: $tooltip-color
       max-width: $tooltip-max-width
 
   &:focus,
