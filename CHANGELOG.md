@@ -1,3 +1,12 @@
+<a name="3.0.0"></a>
+## [3.0.0](https://github.com/Wikiki/bulma-tooltip/compare/1.0.5...3.0.0) (2019-10-06)
+
+### Breaking changes
+**Careful** You must now use <code>has-tooltip-*</code> classes.
+
+### Bug Fixes
+- Lots of display bug fixes
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/Wikiki/bulma-tooltip/compare/1.0.4...1.0.5) (2018-05-12)
 

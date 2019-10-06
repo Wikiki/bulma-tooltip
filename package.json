@@ -1,8 +1,10 @@
 {
   "name": "bulma-tooltip",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Display a tooltip attached to any kind of element, in different position.",
   "main": "./dist/css/bulma-tooltip.min.css",
+  "style": "./dist/bulma-tooltip.min.css",
+  "sass": "./src/sass/index.sass",
   "scripts": {
     "build": "gulp",
     "commit": "git-cz",

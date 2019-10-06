@@ -1,0 +1,34 @@
+@each $direction in top, right, bottom, left
+	+mobile
+		.has-tooltip-#{$direction}-mobile
+			@include tooltip-direction(#{$direction})
+	+tablet
+		.has-tooltip-#{$direction}-tablet
+			@include tooltip-direction(#{$direction})
+	+tablet-only
+		.has-tooltip-#{$direction}-tablet-only
+			@include tooltip-direction(#{$direction})
+	+touch
+		.has-tooltip-#{$direction}-touch
+			@include tooltip-direction(#{$direction})
+	+desktop
+		.has-tooltip-#{$direction}-desktop
+			@include tooltip-direction(#{$direction})
+	+desktop-only
+		.has-tooltip-#{$direction}-desktop-only
+			@include tooltip-direction(#{$direction})
+	+until-widescreen
+		.has-tooltip-#{$direction}-until-widescreen
+			@include tooltip-direction(#{$direction})
+	+widescreen
+		.has-tooltip-#{$direction}-widescreen
+			@include tooltip-direction(#{$direction})
+	+widescreen-only
+		.has-tooltip-#{$direction}-widescreen-only
+			@include tooltip-direction(#{$direction})
+	+until-fullhd
+		.has-tooltip-#{$direction}-until-fullhd
+			@include tooltip-direction(#{$direction})
+	+fullhd
+		.has-tooltip-#{$direction}-fullhd
+			@include tooltip-direction(#{$direction})
