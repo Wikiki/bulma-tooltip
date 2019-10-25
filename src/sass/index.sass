@@ -72,6 +72,11 @@
 			$color: nth($pair, 1)
 			$color-invert: nth($pair, 2)
 			&.has-tooltip-#{$name}
+				&:not(.has-tooltip-bottom),
+				&:not(.has-tooltip-left),
+				&:not(.has-tooltip-right)
+					&::after
+						border-color: rgba($color, $tooltip-background-opacity) transparent transparent transparent
 				&.has-tooltip-bottom
 					&::after
 						border-color: transparent transparent rgba($color, $tooltip-background-opacity) transparent
