@@ -1,2 +1,12 @@
 /bulma
 /node_modules
+
+.DS_STORE
+*~
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
