@@ -1,3 +1,5 @@
+## Package is abandoned in favor of http://github.com/creativebulma/bulma-tooltip
+
 # bulma-tooltip
 Bulma's extension to display tooltip on desktop layout
 (find all my bulma's extensions [here](https://wikiki.github.io/))
